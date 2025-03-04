@@ -10,7 +10,7 @@ const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your Google API key, or use
 const SHEET_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Sheet1!A2:E?key=${API_KEY}`;
 
 // Alternative public method (uncomment if not using API key):
-const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json`;
+// const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json`;
 
 async function loadSongs() {
     try {
